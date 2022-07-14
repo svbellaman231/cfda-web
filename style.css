@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #A0AECD;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    margin: 2rem 0 5rem 0 ;
+}
+
+.head-img1, .head-img2 {
+    width: 50%;
+}
+
+.head-img1 img{
+    width: 100%;
+    height: 11em;
+    border-radius: 10px;
+}
+
+    /* .head-img2 {
+        width: 100%;
+        margin: 0 auto;
+    } */
+
+.head-img2 img{
+    width: 100%;
+    height: 11rem;
+    border-radius: 10px;
+}
+
+.head-text{
+    width: 63%;
+    margin: 0 auto 4rem auto;
+}
+
+.head-text h1{
+    font-size: 35px;
+    color: #000;
+    line-height: 1.6;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.head-text > h1 > span {
+    color: #cba437;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* <!-- about CFDA --> */
+
+.cfda-story{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.cfda-story h1{
+    font-size: 30px;
+    color: #cba437;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.cfda-story p{
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.6;
+}
+
+/* <!-- testimony --> */
+
+body > section > h1 {
+    color: #cba437;
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.testimony{
+    width: 85%;
+    margin: 4rem auto;
+    /* padding: 50px; */
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.test{
+    width: 30%;
+
+}
+
+.test img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* winners-list */
+
+.winners{
+    width: 85%;
+    margin: 0 auto;
+
+}
+
+.winnings{
+    width: 80%;
+    margin: 3rem auto;
+    padding: 25px;
+
+}
+
+.winnings img{
+    width: 100%;
+}
+
+/* .winners-list{
+    width: 65%;
+    margin: 0 auto;
+    padding: 30px;
+} */
+
+.winners-list h3{
+    text-align: center;
+    color: #cba437;
+    font-style: italic;
+    /* margin-bottom: 3rem; */
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.winning-table{
+    background-color: #ffebb5;
+}
+
+table {
+    /* border-collapse: collapse; */
+    width: 85%;
+    margin: 0 auto;
+  }
+  
+  td, th {
+    /* border: 1px solid #dddddd; */
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  /* claim form  */
+
+  .claim-form{
+      width: 85%;
+      margin: 5rem auto;
+  }
+
+  form{
+      width: 100%;
+  }
+
+  #fname, #lname, #number, #email, #choice{
+      width: 40%;
+      height: 2.5rem;
+      border-radius: 5px;
+      border: 1px solid #cba437;
+      margin: 15px;
+      padding: 10px;
+      font-size: 16px;
+  }
+
+  form h3{
+      font-size: 30px;
+      font-weight: 500;
+      font-style: italic;
+      color: #cba437;
+      margin: 1rem;
+  }
+
+  form h5{
+      font-size: 20px;
+      font-weight: 500;
+      font-style: italic;
+      margin: 1rem;
+      color: #cba437;
+    }
+  
