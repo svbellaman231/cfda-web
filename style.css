@@ -184,7 +184,7 @@ table {
       width: 100%;
   }
 
-  #fname, #lname, #number, #email, #choice {
+  .detail, #choice{
       width: 40%;
       height: 2.5rem;
       border-radius: 5px;
@@ -192,6 +192,31 @@ table {
       margin: 15px;
       padding: 10px;
       font-size: 16px;
+  }
+  .details{
+    width: 83%;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 1px solid #cba437;
+    margin: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  #age{
+      margin-left: 20px;
+      font-size: 16px;
+  }
+
+  #dob{
+    width: 30%;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 1px solid #cba437;
+    margin: 15px;
+    margin-right: 55px;
+    padding: 10px;
+    font-size: 16px;
   }
 
   form h2{
