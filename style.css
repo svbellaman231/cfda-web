@@ -60,7 +60,7 @@ header{
 }
 
 .head-text > h1 > span {
-    color: #cba437;
+    color: #2c393b;
     font-size: 20px;
     font-weight: 700;
     font-style: italic;
@@ -75,7 +75,7 @@ header{
 
 .cfda-story h1{
     font-size: 30px;
-    color: #cba437;
+    color: #2c393b;
     text-align: center;
     font-weight: 500;
     margin-bottom: 3rem;
@@ -90,7 +90,7 @@ header{
 /* <!-- testimony --> */
 
 body > section > h1 {
-    color: #cba437;
+    color: #2c393b;
     text-align: center;
     margin-top: 4rem;
     font-size: 40px;
@@ -146,7 +146,7 @@ body > section > h1 {
 
 .winners-list h3{
     text-align: center;
-    color: #cba437;
+    color: #2c393b;
     font-style: italic;
     /* margin-bottom: 3rem; */
     font-size: 35px;
@@ -184,7 +184,7 @@ table {
       width: 100%;
   }
 
-  #fname, #lname, #number, #email, #choice{
+  #fname, #lname, #number, #email, #choice {
       width: 40%;
       height: 2.5rem;
       border-radius: 5px;
@@ -194,11 +194,19 @@ table {
       font-size: 16px;
   }
 
+  form h2{
+      font-size: 40px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: #2c393b;
+      text-align: center;
+  }
+  
   form h3{
       font-size: 30px;
       font-weight: 500;
       font-style: italic;
-      color: #cba437;
+      color: #2c393b;
       margin: 1rem;
   }
 
@@ -207,6 +215,26 @@ table {
       font-weight: 500;
       font-style: italic;
       margin: 1rem;
-      color: #cba437;
-    }
+      color: #2c393b;
+  }
   
+  form select{
+    width: 40%;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 1px solid #cba437;
+    margin: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  form button{
+      width: 10%;
+      height: 2rem;
+      font-size: 20px;
+      font-weight: 500;
+      background-color: #1b34c0;
+      color: #fff;
+      border: 1px solid #fff;
+      border-radius: 5px;
+  }

