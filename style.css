@@ -34,11 +34,6 @@ header{
     border-radius: 10px;
 }
 
-    /* .head-img2 {
-        width: 100%;
-        margin: 0 auto;
-    } */
-
 .head-img2 img{
     width: 100%;
     height: 11rem;
@@ -100,12 +95,13 @@ body > section > h1 {
 .testimony{
     width: 85%;
     margin: 3.5rem auto;
-    /* padding: 50px; */
     display: flex;
     align-items: center;
     gap: 1rem;
     justify-content: space-between;
     flex-wrap: wrap;
+    /* flex-flow: wrap; */
+    /* flex-direction: row; */
 }
 
 .test{
@@ -344,4 +340,109 @@ table {
     text-align: center;
     z-index: 0;
     overflow: hidden;
+  }
+
+
+
+
+  /* mobile and tablet view  */
+
+  @media (max-width: 850px){
+
+    .container{
+        width: 100%;
+        margin: auto;
+    }
+
+    header{
+        flex-direction: column;
+        margin: 0 0 2rem 0;
+        gap: 2rem;
+    }
+
+    .head-img1, .head-img2{
+        width: 100%;
+    }
+
+    .head-img1 img, .head-img2 img{
+        height: 8rem;
+        border-radius: 0;
+    }
+
+    .head-text{
+        width: 100%;
+        margin: 0 auto 2rem auto;
+    }
+
+    /* about cfda  */
+
+    .cfda-story{
+        width: 90%;
+        margin: 0 auto;
+    }
+      
+    .cfda-story p{
+        text-align: center;
+    }
+
+    /* testimonies */
+
+    .testimony{
+        width: 90%;
+        flex-direction: column;
+        /* flex-flow:  ; */
+    }
+
+    .test{
+        width: 100%;
+        /* margin: 0 auto; */
+    }
+
+    .test img{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+
+    /* Winners-list  */
+
+    
+    .winners{
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .winnings{
+        width: 100%;
+        margin: 2rem auto;
+        padding: 20px;
+    
+    }
+
+    /* .winners-list h3{
+        width: 100%;
+        margin: 0 auto;
+        font-size: 40px;
+    } */
+
+    table{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+     /* Claim form  */
+
+     .claim-form{
+         width: 90%;
+         margin: auto;
+     }
+
+     .detail, #dob{
+         width: 100%;
+     }
+
+     form select{
+         width: 100%;
+     }
   }
