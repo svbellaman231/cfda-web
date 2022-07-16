@@ -251,6 +251,7 @@ table {
   form select{
     width: 40%;
     height: 2.5rem;
+    background-color: #fcfcfc;
     border-radius: 5px;
     border: 1px solid #cba437;
     margin: 15px;
