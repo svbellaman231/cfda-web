@@ -281,68 +281,7 @@ table {
     overflow: hidden;
   }
 
-  /* redirecting page */
-
-  .thanks{
-    display: grid;
-    place-content: center;
-    height: 100vh;
-    background: url(image/Meteor.svg);
-  }
-
-  .wrapper{
-    backdrop-filter: blur(11px) saturate(164%);
-    background-color: #A0AECD;
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.125);
-    padding: 17px;
-    text-align: center;
-    width: 70%;
-    margin: auto;
-  }
-
-  .wrapper  img{
-    width: 60%;
-  }
-
-  .wrapper h1{
-    color: #1C0C5B;
-    margin-top: 10px;
-    margin-bottom: 8px;
-    font-size: 40px;
-  }
-
-  .wrapper h6{
-    color: #ffffff;
-    font-size: 16px;
-    margin-bottom: 5px;
-  }
-
-  .wrapper p{
-    color: #e1e3e7;
-    font-weight: 300;
-  }
-
-  .wrapper a{
-    outline: 0;
-    background: transparent;
-    border: 1px solid #916bbf;
-    border-radius: 5px;
-    color: #f6ccef;
-    margin-top: 10px;
-    min-width: 130px;
-    padding: 15px 20px;
-    font-weight: bold;
-    font-size: 14px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    text-decoration: none;
-    text-align: center;
-    z-index: 0;
-    overflow: hidden;
-  }
+ 
 
 
 
