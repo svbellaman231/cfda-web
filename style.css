@@ -440,12 +440,12 @@ table {
          margin: auto;
      }
 
-     .detail, #dob{
-         width: 100%;
+     .detail, #dob, .details {
+         width: 95%;
      }
 
      form select{
-         width: 100%;
+         width: 95%;
      }
   }
 
@@ -457,11 +457,11 @@ table {
         /* overflow-x: hidden;
     } */
 
-    header{
+    /* header{
         flex-direction: column;
         margin: 0 0 2rem 0;
         gap: 2rem;
-    }
+    } */
 
     .head-img1, .head-img2{
         width: 100%;
